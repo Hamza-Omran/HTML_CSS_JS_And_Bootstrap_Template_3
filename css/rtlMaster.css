@@ -1,0 +1,163 @@
+/* dots */
+.dots::after{
+    right: inherit;
+    left: 0;
+}
+
+
+body{
+    direction: rtl;
+}
+
+/* header */
+header ul.main {
+    margin-right: auto;
+    margin-left: 0 !important;
+}
+
+header ul.main>li>a::before,
+header ul.main>li>div::before{
+    transform: translateX(100%);
+}
+
+/* mega menu */
+header .mega-menu ul.coln li a::before{
+    left: inherit;
+    right: 0;
+}
+
+.mega-menu ul.coln li svg {
+    margin: 0 0 0 10px;
+}
+
+/* article */
+
+.article .row .card .link::after {
+    content: '\f30a';
+    right: inherit;
+    left: 20px;
+}
+
+.article .row .card .link:hover::after {
+    animation: link 0.5s ease-in infinite;
+}
+
+@keyframes link {
+    50% {
+        left: 10px;
+    }
+
+    100% {
+        left: 20px;
+    }
+}
+
+/* features */
+.features .box .info a::before {
+    left: inherit;
+    right: -100%;
+}
+
+.features .box:hover a::before{
+    right: 0;
+}
+
+/* testimonials */
+.testimonials {
+    position: relative;
+}
+
+.testimonials .row .testimon .photo img{
+    right: inherit;
+    left: 0;
+}
+
+/* team */
+.team .box::before,
+.team .box::after {
+    right: inherit;
+    left: 0;
+}
+
+.team .box .info {
+    padding: 20px 90px 10px 0;
+}
+
+.services .row .box .details span:first-of-type::after{
+    left: inherit;
+    right: -20px;
+}
+
+.services .row .box .details span:first-of-type::before{
+    right: inherit;
+    left: -80px;
+    transform: skewX(30deg);
+}
+
+/* skills */
+.our-skills .container .skills {
+    padding-right: 100px;
+}
+
+.our-skills .container .skill div span::after{
+    right: inherit;
+    left: 0;
+}
+
+/* works */
+
+.works{
+    position: relative;
+}
+
+.works .box .photo {
+    margin: 0 0 0 30px;
+}
+
+/* plans */
+.plans .row .plan ul li{
+    position: relative;
+}
+
+.plans .row .plan ul li::before{
+    position: absolute;
+    margin: 0 0 0 10px;
+    right: -5px;
+}
+
+.plan ul {
+    padding: 20px;
+}
+
+/* discount */
+.discount .content form input[type="submit"]{
+    width: 100%;
+}
+
+.discount .row .info-box {
+    left: inherit;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+/* footer */
+footer .links ul li:hover{
+    padding-right: 10px;
+}
+
+footer .links ul li::before{
+    content: "\F100";
+    margin: 0 0 0 10px;
+}
+
+footer .details ul{
+    padding: 0;
+}
+
+footer .details ul li a {
+    margin: 10px 0 0 10px;
+}
+
+footer p {
+    text-align: right;
+}
