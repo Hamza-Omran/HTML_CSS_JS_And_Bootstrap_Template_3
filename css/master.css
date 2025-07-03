@@ -197,6 +197,9 @@ header ul.main>li select {
     cursor: pointer;
     padding: 10px 16px 16px 16px;
     background-color: white;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 header ul.main>li select:focus{
