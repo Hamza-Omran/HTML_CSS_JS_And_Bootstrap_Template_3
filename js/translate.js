@@ -1,6 +1,6 @@
 const resources = {
-    en: { translation: await(await fetch('../json/en.json')).json() },
-    ar: { translation: await(await fetch('../json/ar.json')).json() }
+    en: { translation: await(await fetch('./json/en.json')).json() },
+    ar: { translation: await(await fetch('./json/ar.json')).json() }
 };
 
 i18next.init({
