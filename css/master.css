@@ -196,9 +196,14 @@ header ul.main>li select {
     border: none;
     cursor: pointer;
     padding: 10px 16px 16px 16px;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+}
+
+@media (max-width: 767px) {
+    header ul.main>li select {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
 }
 
 header ul.main>li select:focus{
