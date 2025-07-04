@@ -198,14 +198,6 @@ header ul.main>li select {
     padding: 10px 16px 16px 16px;
 }
 
-@media (max-width: 767px) {
-    header ul.main>li select {
-        appearance: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-    }
-}
-
 header ul.main>li select:focus{
     outline: none;
 }
@@ -225,6 +217,9 @@ header ul a {
     header ul.main>li select {
         padding: 5px;
         font-size: 13px;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
     }
 }
 
