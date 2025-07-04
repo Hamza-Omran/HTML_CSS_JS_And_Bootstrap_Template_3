@@ -217,10 +217,7 @@ header ul a {
     header ul.main>li select {
         padding: 5px;
         font-size: 13px;
-        appearance: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        background-color: white !important;
+        background-color: transparent !important;
     }
 }
 
