@@ -202,6 +202,10 @@ header ul.main>li select:focus{
     outline: none;
 }
 
+header ul.main>li select option {
+    background-color: white;
+}
+
 header ul a {
     display: block;
     color: black;
