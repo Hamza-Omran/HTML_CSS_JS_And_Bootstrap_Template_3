@@ -202,10 +202,6 @@ header ul.main>li select:focus{
     outline: none;
 }
 
-header ul.main>li select option {
-    background-color: white;
-}
-
 header ul a {
     display: block;
     color: black;
@@ -224,6 +220,7 @@ header ul a {
         appearance: none;
         -webkit-appearance: none;
         -moz-appearance: none;
+        background-color: white !important;
     }
 }
 
