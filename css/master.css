@@ -418,15 +418,17 @@ section.gallery {
     position: relative;   
 }
 
-
 .gallery .row .box .photo {
     overflow: hidden;
     position: relative;
 }
 
+.gallery .row .box img{
+    transition: var(--transition);
+}
+
 .gallery .row .box:hover img{
     transform: scale(1.1) rotateZ(6deg);
-    transition: var(--transition);
     position: relative;
 }
 
