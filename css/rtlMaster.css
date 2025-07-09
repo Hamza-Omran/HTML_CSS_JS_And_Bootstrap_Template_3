@@ -96,10 +96,6 @@ header .mega-menu ul.coln li a::before{
 }
 
 /* skills */
-.our-skills .container .skills {
-    padding-right: 100px;
-}
-
 .our-skills .container .skill div span::after{
     right: inherit;
     left: 0;
